@@ -1,3 +1,5 @@
+/*overall rules*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -49,6 +51,8 @@ nav a span {
 	text-decoration: line-through;
 }
 
+/*next pages*/
+
 #first_section {
 	text-align: center;
 	padding-top: 8vh;
@@ -88,6 +92,7 @@ h5 {
 
 #portfolio_section .section_wrapper div {
 	background: #FFA193;
+	position: relative;
 }
 
 
@@ -95,6 +100,13 @@ h5 {
 	opacity: 0.5;
 	width: 100%;
 }
+
+#portfolio_section .section_wrapper h3 {
+	position: absolute;
+
+}
+
+/*overall rules*/
 
 footer {
 	background-color: #00005C;
@@ -109,5 +121,7 @@ footer p {
 	font-size: 0.5rem;
 }
 
+
+/*desktop version starts here*/
 
 @media (orientation: portrait) and (min-width: 500px) {}
