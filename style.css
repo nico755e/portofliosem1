@@ -52,6 +52,7 @@ nav a span {
 #first_section {
 	text-align: center;
 	padding-top: 8vh;
+	margin: 0 0 10vh 0;
 }
 
 #first_section img {
@@ -85,12 +86,12 @@ h5 {
 }
 
 
-#portfolio_section .section_wrapper:first-child {
+#portfolio_section .section_wrapper div {
 	background: #FFA193;
 }
 
 
-#portfolio_section .section_wrapper:first-child img {
+#portfolio_section .section_wrapper div img {
 	opacity: 0.5;
 	width: 100%;
 }
@@ -98,7 +99,6 @@ h5 {
 footer {
 	background-color: #00005C;
 	height: 20vh;
-	margin-top: 10vh;
 	padding: 5vh 3vw 0 0;
 }
 
