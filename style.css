@@ -84,6 +84,17 @@ h5 {
 	font-size: 1.6vh;
 }
 
+
+#portfolio_section .section_wrapper:first-child {
+	background: #FFA193;
+}
+
+
+#portfolio_section .section_wrapper:first-child img {
+	opacity: 0.5;
+	width: 100%;
+}
+
 footer {
 	background-color: #00005C;
 	height: 20vh;
