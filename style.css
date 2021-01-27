@@ -51,7 +51,7 @@ nav a span {
 	text-decoration: line-through;
 }
 
-/*next pages*/
+/*hjem page*/
 
 #first_section {
 	text-align: center;
@@ -89,32 +89,49 @@ h5 {
 	font-size: 1.6vh;
 }
 
+/*portfolio page*/
 
-#portfolio_section .section_wrapper div {}
-
-
-#portfolio_section .section_wrapper div img {
-	width: 100%;
+#portfolio_section div:first-child {
+	background: url(img/portfolio_landing_tema2.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+	margin: 0 0 2vh 0;
 }
 
-#portfolio_section .section_wrapper h3 {
-	position: absolute;
-	z-index: 1;
+#portfolio_section div:nth-child(2) {
+	background: url(img/portfolio_landing_tema3.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+	margin: 0 0 2vh 0;
+}
+
+#portfolio_section div:nth-child(3) {
+	background: url(img/portfolio_landing_tema4.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+	margin: 0 0 2vh 0;
+}
+
+#portfolio_section div:nth-child(4) {
+	background: url(img/portfolio_landing_tema5.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+}
+
+#portfolio_section h3 {
 	background-color: #00005C;
-	padding: 1.1vh 7vw;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
 	font-size: 1rem;
 	color: #FFA193;
+	text-align: center;
+	position: relative;
+	top: 250px;
+	height: 5vh;
+	padding: 1vh 0 0 0;
 }
 
-/*
-#label_portfolio {
-	background-color: #00005C;
-	width: 20vw;
 
-}
-*/
 
 /*overall rules*/
 
