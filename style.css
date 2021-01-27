@@ -83,11 +83,53 @@ h1 {
 	margin: 2vh 32vw 0 32vw;
 }
 
+#content_wrapper h3 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #FFA193;
+	font-weight: 300;
+	font-size: 2.5rem;
+	margin: 8vh 0 0 0;
+}
+
+#content_wrapper h4 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #FFA193;
+	font-weight: 300;
+	font-size: 1.5rem;
+	margin: 8vh 0 0 0;
+}
+
 h5 {
 	color: #00005C;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	font-size: 1.6vh;
 }
+
+h6 {
+	color: #00005C;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.6vh;
+	text-align: right;
+	font-weight: 400;
+}
+
+p {
+	color: #00005C;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.9vh;
+	line-height: 1.3;
+}
+
+#content_wrapper {
+	padding: 0 10vw 0 10vw;
+}
+
+#content_wrapper img {
+	width: 100%;
+	margin: 0 0 2vh 0;
+}
+
 
 /*portfolio landingpage*/
 
@@ -133,25 +175,25 @@ h5 {
 
 /*portfolio page*/
 
-#tema2_section div {
+#tema2_section #hero {
 	background: url(img/portfolio_landing_tema2.jpg) no-repeat center center;
 	background-size: cover;
 	height: 500px;
 }
 
-#tema3_section div {
+#tema3_section #hero {
 	background: url(img/portfolio_landing_tema3.jpg) no-repeat center center;
 	background-size: cover;
 	height: 500px;
 }
 
-#tema4_section div {
+#tema4_section #hero {
 	background: url(img/portfolio_landing_tema4.jpg) no-repeat center center;
 	background-size: cover;
 	height: 500px;
 }
 
-#tema5_section div {
+#tema5_section #hero {
 	background: url(img/portfolio_landing_tema5.jpg) no-repeat center center;
 	background-size: cover;
 	height: 500px;
