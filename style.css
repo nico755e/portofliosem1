@@ -89,7 +89,7 @@ h5 {
 	font-size: 1.6vh;
 }
 
-/*portfolio page*/
+/*portfolio landingpage*/
 
 #portfolio_section div:first-child {
 	background: url(img/portfolio_landing_tema2.jpg) no-repeat center center;
@@ -131,6 +131,83 @@ h5 {
 	padding: 1vh 0 0 0;
 }
 
+/*portfolio page*/
+
+#tema2_section div {
+	background: url(img/portfolio_landing_tema2.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+}
+
+#tema3_section div {
+	background: url(img/portfolio_landing_tema3.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+}
+
+#tema4_section div {
+	background: url(img/portfolio_landing_tema4.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+}
+
+#tema5_section div {
+	background: url(img/portfolio_landing_tema5.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+}
+
+#tema2_section h1 {
+	background-color: #00005C;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #FFA193;
+	text-align: center;
+	position: relative;
+	top: 250px;
+	height: 5vh;
+	padding: 1vh 0 0 0;
+}
+
+#tema3_section h1 {
+	background-color: #00005C;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #FFA193;
+	text-align: center;
+	position: relative;
+	top: 250px;
+	height: 5vh;
+	padding: 1vh 0 0 0;
+}
+
+#tema4_section h1 {
+	background-color: #00005C;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #FFA193;
+	text-align: center;
+	position: relative;
+	top: 250px;
+	height: 5vh;
+	padding: 1vh 0 0 0;
+}
+
+#tema5_section h1 {
+	background-color: #00005C;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #FFA193;
+	text-align: center;
+	position: relative;
+	top: 250px;
+	height: 5vh;
+	padding: 1vh 0 0 0;
+}
 
 
 /*overall rules*/
