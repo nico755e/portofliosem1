@@ -59,9 +59,11 @@ nav a span {
 }
 
 #first_section img {
-	width: 65vw;
 	text-align: center;
-	margin: 8vh 0 4vh 0;
+}
+
+#first_section h5 {
+	margin: 0 0 8vh 0;
 }
 
 h1 {
@@ -79,7 +81,8 @@ h1 {
 	margin-top: 2vh;
 	padding-top: 0.5vh;
 	height: 3.5vh;
-	margin: 2vh 32vw 0 32vw;
+	width: auto;
+	margin: 2vh 0 5vh 0;
 }
 
 #content_wrapper h3 {
@@ -321,16 +324,14 @@ footer p {
 @media only screen and (min-width: 550px) {
 
 
-	#first_section {
-		max-width: 800px;
-		margin: auto;
-	}
-
 	#portfolio_section,
 	#tema2_section,
 	#tema3_section,
 	#tema4_section,
-	#tema5_section {
+	#tema5_section,
+	#om_section,
+	#om_section,
+	#first_section {
 		max-width: 800px;
 		margin: auto;
 	}
