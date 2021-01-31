@@ -318,4 +318,20 @@ footer p {
 
 /*desktop version starts here*/
 
-@media (orientation: portrait) and (min-width: 500px) {}
+@media only screen and (min-width: 550px) {
+
+
+	#first_section {
+		max-width: 800px;
+		margin: auto;
+	}
+
+	#portfolio_section,
+	#tema2_section,
+	#tema3_section,
+	#tema4_section,
+	#tema5_section {
+		max-width: 800px;
+		margin: auto;
+	}
+}
